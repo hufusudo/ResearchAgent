@@ -153,9 +153,3 @@ uv run python -m eval.runner --topics T01 --mock --no-pdf-download
 # 运行全量 10 个基准主题评测（需配置有效 API Key）
 uv run python -m eval.runner --all --resume
 ```
-
----
-
-## 五、安全与隐私提示
-
-- `.env`、`data/`、`outputs/` 与 `eval/results/` 均已加入 [.gitignore](.gitignore)，请勿将真实 API Key 或个人运行数据提交至公开仓库。
