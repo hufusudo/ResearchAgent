@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "reacher-agent"
 version = "0.1.0"
 description = "Autonomous literature survey agent powered by LangGraph and Hybrid RAG."
-readme = "docs/project_proposal.md"
+readme = "README.md"
 requires-python = ">=3.11,<3.14"
 dependencies = [
     "langgraph>=0.2.0",
